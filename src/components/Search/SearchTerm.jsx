@@ -8,7 +8,7 @@ function GithubUser() {
   return (
     <div className="name-wrapper">
       <Navbar updateSearchTerm={setSearchTerm}/>
-      {(searchTerm.length == 0 ) ? <p>hello</p> : <GitHubUserList key={searchTerm} userName={searchTerm}/> }
+      {(searchTerm.length == 0 ) ? <p>Welcome to our platform</p> : <GitHubUserList key={searchTerm} userName={searchTerm}/> }
     </div>
   );
 }

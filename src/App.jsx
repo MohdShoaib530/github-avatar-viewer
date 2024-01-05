@@ -1,10 +1,10 @@
 import "./App.css";
-import GithubUser from "./components/Search/SearchTerm";
+import UserRoutes from "./router/UserRoutes";
 
 function App() {
   return (
     <div className="App">
-      <GithubUser />
+      <UserRoutes />
     </div>
   );
 }
