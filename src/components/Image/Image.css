@@ -1,0 +1,24 @@
+.image-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    margin: 10px;
+    width: 22%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    border-radius: 10%;
+}
+
+.name{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(196, 196, 196);
+}
+
+
+.image{
+   width: 5rem;
+   border-radius: 50%;
+}

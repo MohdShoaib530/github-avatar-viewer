@@ -1,0 +1,90 @@
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+.Navbar-logo {
+  height: 10vmin;
+  pointer-events: none;
+  margin-top: 10px;
+}
+.Navbar > p {
+    color: rgb(194, 191, 191);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Navbar-logo {
+    animation: Navbar-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes Navbar-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.inputUser{
+    padding: 3px 10px;
+    border: 1px solid #c7c6c6;
+    border-radius: 5px;
+    background-color: #424242;
+    outline: none;
+    font-size: .8rem;
+    color: #c7c6c6;
+    margin-left: 20px
+}
+.inputUser:focus{
+    background-color: #424242;
+    color: #c7c6c6;
+    border: 1px solid #c7c6c6;
+    box-shadow: 0 0 5px 0px #c7c6c6;
+}
+.inputUser::placeholder{
+    color: #7b7b7b;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.Navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+.Navbar-item {
+    margin: 0 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    color: #c4c3c3;
+    font-size: .8rem;
+    font-weight: 500;
+    list-style: none;
+
+}
+.Navbar-link {
+    text-decoration: none;
+    color: #c1c0c0;
+    outline: none;
+    transition: box-shadow 0.3s ease-in-out; 
+    box-shadow: 3px 3px 10px rgb(163, 162, 162);
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+    .Navbar-link:hover {
+        box-shadow: 0 0 5px 0px #000000;
+        background-color: rgb(135, 153, 235);
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+    }
+
+
